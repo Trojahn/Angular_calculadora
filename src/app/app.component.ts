@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
   }
 
   removeLast() {
-    let now = String(this.display);
+    let now =this.display;
     this.display = now.slice(0, now.length-1);
   }
 
